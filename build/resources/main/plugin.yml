@@ -1,0 +1,24 @@
+name: EggOptions
+main: io.github.chiyukikana.main.EggOptions
+
+authors: ChiyukiKana
+built-time: 2020/08/08 17:37:52.001+0800
+
+version: 1.1.3f
+api-version: 1.13
+
+github: https://github.com/ChiyukiKana/EggOptions
+description: Add more options to the Minecraft vanilla eggs.
+
+softdepend:
+  - MythicMobs
+
+commands:
+  eggoptions:
+    aliases:
+      - eo
+      - egg
+      - eoptions
+permissions:
+  eggoptions.reload:
+    default: op
